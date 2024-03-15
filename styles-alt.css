@@ -8,15 +8,16 @@ body {
   .estacionamento {
     width: 80%;
     margin: 50px auto;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr); /* Define 6 colunas */
-    gap: 10px; /* Espaço entre as vagas */
+    display: flex;
+    justify-content: space-between; /* Distribui as vagas igualmente */
   }
   
   .vaga {
+    flex: 1; /* As vagas ocupam o mesmo espaço */
     background-color: #ccc; /* Cor padrão da vaga */
     height: 100px;
     border-radius: 5px;
+    margin-right: 10px; /* Espaço entre as vagas */
   }
   
   .ocupada {
