@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .estacionamento {
+    width: 80%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* Define 6 colunas */
+    gap: 10px; /* Espaço entre as vagas */
+  }
+  
+  .vaga {
+    background-color: #ccc; /* Cor padrão da vaga */
+    height: 100px;
+    border-radius: 5px;
+  }
+  
+  .ocupada {
+    background-color: #ff3333; /* Cor da vaga ocupada */
+  }
+  
