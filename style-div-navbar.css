@@ -1,0 +1,15 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cccc;
+    padding: 10px;
+  }
+  
+  .logo img {
+    width: 40px; /* Tamanho da logo */
+  }
+  
+  .profile-icon img {
+    width: 40px; /* Tamanho do ícone de perfil */
+  }

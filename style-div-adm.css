@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .box {
+    width: 30%; /* Define a largura das divs */
+    height: 15x0px; /* Define a altura das divs */
+    background-color: #e7e3e3; /* Cor de fundo das divs */
+  }
+  
+  /* Estilos adicionais para tornar a demo mais visualmente apelativa */
+  .container {
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .box {
+    box-sizing: border-box;
+    border: 2px solid #cccc;
+    border-radius: 7px;
+    
+  }
+
+  .conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px; 
+  }
+
+  .cabecalho {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .icone-user {
+    height: 50px;
+    width: 50px;
+  }
+
+  .quantidade {
+    display: flex;
+    justify-content: flex-end;
+    font-size: large;
+  }
