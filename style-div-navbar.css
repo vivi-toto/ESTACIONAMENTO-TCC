@@ -3,15 +3,16 @@
     justify-content: space-between;
     align-items: center;
     background-color: #cccc;
-    padding: 10px;
   }
   
   .logo img {
     width: 40px; /* Tamanho da logo */
+    padding: 5px;
   }
   
   .profile-icon img {
     width: 40px; /* Tamanho do ícone de perfil */
+    padding: 5px;
   }
 
 ul {
@@ -36,4 +37,6 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #ff3333;
+  opacity: 0.5;
+  border-radius: 10px;
 }
