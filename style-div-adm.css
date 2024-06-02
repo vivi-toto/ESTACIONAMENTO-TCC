@@ -19,7 +19,7 @@
     box-sizing: border-box;
     border: 2px solid #cccc;
     border-radius: 7px;
-    
+    padding: 10px;
   }
 
   .conteudo-secundario {
